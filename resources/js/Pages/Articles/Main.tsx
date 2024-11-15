@@ -18,13 +18,14 @@ interface ArticlesType {
 
 export default function ArticlesList({ articles }: ArticlesType ) {
 
-
     return (
   <MainLayout>
-    <div>
+    <div className='flex flex-col items-center justify-center mt-7 gap-8 p-8'>
         {
             articles.map((article) => (
-                <Article key={article.id} article={article} />
+                <div className='bg-slate-50 rounded-xl p-8 shadow-lg'>
+                    <Article key={article.id} article={article} />
+                </div>
             ))
         }
     </div>

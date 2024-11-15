@@ -26,7 +26,7 @@ export default function Article({ article }: any) {
     <div className='max-w-xl font-geist'>
         <div className='relative flex flex-col items-left justify-center p-2 mt-10 gap-3'>
             <h1 className='font-bold text-3xl tracking-wide text-slate-800'>{article.title}</h1>
-            <p className='text-gray-700 text-base font-light'>{article.content}</p>
+            <p className='text-gray-700 text-base font-light leading-7 mt-4 mb-4'>{article.content}</p>
         </div>
         <div className='flex flex-col gap-8'>
         <div className='flex justify-between p-2 items-center'>

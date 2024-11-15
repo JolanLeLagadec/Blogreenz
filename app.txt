@@ -7,17 +7,18 @@
 -> Can read blogs on home page.
 -> Guest can see blogs, but has to be logged to see entire article.
 -> User logged has access to entire article.
-
-
 -> Logged user can access to his dashboard, create, update and delete his blogs.
+
     - Include upload file
+
 -> Logged user can comment articles
 -> A user can manage his profile ( and can also add a profile pic at auth time)
 -> Pagination
 -> A blog is related to tags.
+
 -> A user authenticated can like an article.
 -> User and guest can search a blog with the searchbar.
--> User and guest can filter articles by date, tags, category, popularity (tags).
+-> User and guest can filter articles by date, tags, category, popularity (likes).
 
 More features :
 -> A user can access to his profile, modify his personal informations.

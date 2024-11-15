@@ -20,7 +20,7 @@ class ArticlesFactory extends Factory
         return [
             'title' => fake()->sentence(5),
             'content' => fake()->realText(400),
-            'user_id' => fake()->numberBetween(1, 10),
+            'user_id' => fake()->numberBetween(1, 4),
             'category_id' => fake()->numberBetween(1, 6)
         ];
     }
